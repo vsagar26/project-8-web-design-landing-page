@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+
+}
+
+body{
+    background-color: #fff;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+}
+
+.nav-items, .intro-section{
+display: flex;
+
+
+}
+
+.nav-item{
+    padding: 20px 24px;
+}
+
+.learn-more-btn, .signin-btn{
+    background: linear-gradient(to left, #d41cc8 0%, #9300f5 100%) ;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 26px;
+    border-width: 0ch;
+    border-radius: 40px;
+    
+}
+
+nav img{
+    height: 40px;
+    margin-left: 50px;
+}
+
+.signin-btn{
+ margin-right: 200px;  
+ 
+ font-size: 16px; 
+ margin-top: 10px;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+h1{
+font-size: 64px;
+font-weight: 700;
+margin-left: 70px;
+margin-top: 50px;
+color: #060270;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 70px;
+    margin-top: 40px;
+    color: #000;
+    width: 360px;
+}
+
+.learn-more-btn{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: 600;
+    font-size: 18px;
+    height: 50px;
+}
+
+.backcover-img{
+    position: relative;
+    right: -90px;
+    top: -180px;
+    height: 760px;
+}
+
+.intro-img{
+    position: absolute;
+    top: 100px;
+    right: 220px;
+    height: 600px;
+}
+
+.vector-dot{
+    height: 18px;
+    position: absolute;
+    top: 500px;
+    left: 654px;
+}
+
+.vector-img{
+    height: 120px;
+    position: absolute;
+    top: 480px;
+    left: 600px;
+}
+
+@media screen and (max-width: 500px){
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs-div{
+        display: none;
+        
+    }
+
+    .backcover-img{
+        display: none;
+    }
+
+    .intro-img{
+        display: none;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .signin-btn{
+        margin-left: 130px;
+        margin-top: -5px;
+        
+    }
+
+    .menu-bar{
+        display:inline;
+        margin-left: -170px;
+    }
+
+   
+}
+
+@media screen and (min-width: 505px){
+        
+
+        .menu-bar{
+            display: none;
+        }
+}
